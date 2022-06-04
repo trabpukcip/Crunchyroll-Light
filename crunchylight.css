@@ -1,0 +1,106 @@
+@-moz-document url-prefix("https://beta.crunchyroll.com") {
+body,
+html {
+    color: #000 !important/* #fff */
+}
+
+body {
+    background-color: #fff !important/* #000 */
+}
+
+.erc-header .header-content {
+    background-color: #f7f9ff !important/* #23252b */
+}
+
+.erc-logo:focus {
+    outline: .25rem solid #a0a0a0
+}
+
+@media (hover: hover) {
+
+    .erc-logo:focus .logo-icon,
+    .erc-logo:hover .logo-icon {
+        fill: #f5ab7a !important/* #fff */
+    }
+}
+
+.erc-header-tile {
+    color: #252525 !important/* #dadada */
+}
+
+.erc-header-svg {
+    color: #252525 !important/* #dadada */
+}
+
+.erc-header-tile:focus {
+    outline: .25rem solid #5e5e5e !important/* #a0a0a0 */
+}
+
+@media (hover: hover) {
+
+    .erc-header-tile:focus,
+    .erc-header-tile:hover {
+        background-color: #f5ab7a !important;
+        /* #141519 */
+        color: #000 !important/* #fff */
+    }
+}
+
+.erc-header-tile.state-active {
+    background-color: #f5ab7a !important;
+    /* #141519 */
+    color: #000 !important/* #fff */
+}
+
+.erc-sticky-header.state-static {
+    background-color: #fff/* #000 */
+}
+
+.c-card-watchlist-label {
+    color: #fff/* #000 */
+}
+
+.c-expandable-section__button {
+    color: #a0a0a0;
+}
+
+@media (hover: hover) {
+    .c-browse-card:focus,
+    .c-browse-card:hover {
+        background-color: #f5ebe4 !important;
+        /* #141519 */
+        box-shadow: 0 0 0 var(--hover-shadow-size) #f5ebe4 !important;
+        /* #141519 */
+    }
+    .c-browse-card:focus .c-browse-card__poster-wrapper:after,
+    .c-browse-card:hover .c-browse-card__poster-wrapper:after {
+        opacity: .08
+    }
+    .c-browse-card:focus .c-browse-card__watchlist-label,
+    .c-browse-card:hover .c-browse-card__watchlist-label {
+        color: #f5ebe4 !important;
+        /* #141519 */
+    }
+}
+
+.c-browse-card__title-link {
+    color: #000 !important;
+    /* #fff */
+}
+
+.c-feed-header__description {
+    color: #252525 !important/* #dadada */
+}
+
+.c-promo-curated-feed--odd .c-promo-curated-feed__background-overlay-top {
+    background-image: linear-gradient(180deg, #2abdbb00, #fff) !important/* #000 (end) */
+}
+
+.c-promo-curated-feed--even .c-promo-curated-feed__background-overlay-top {
+    background-image: linear-gradient(180deg, #fab81800, #fff) !important/* #000 (end) */
+}
+
+.c-promo-curated-feed__background-overlay-bottom {
+    background-color: #fff !important/* #000 */
+}
+}
